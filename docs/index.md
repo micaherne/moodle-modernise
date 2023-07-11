@@ -1,0 +1,1 @@
+This is an attempt to make Moodle run as a modern PHP app.
