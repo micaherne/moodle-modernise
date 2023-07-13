@@ -1,0 +1,160 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4d0a78a449b7b8bb9302faae80e4ac96",
+    "packages": [
+        {
+            "name": "moodle/moodle",
+            "version": "v4.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moodle/moodle.git",
+                "reference": "8c989335be74ba0f9fef854d5c3c2a734110816a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moodle/moodle/zipball/8c989335be74ba0f9fef854d5c3c2a734110816a",
+                "reference": "8c989335be74ba0f9fef854d5c3c2a734110816a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-sodium": "*",
+                "ext-spl": "*",
+                "ext-xml": "*",
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "ext-zlib": "*",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "3.12.*",
+                "behat/mink": "^1.10.0",
+                "behat/mink-goutte-driver": "^2.0",
+                "friends-of-behat/mink-extension": "^2.7.2",
+                "mikey179/vfsstream": "1.6.*",
+                "oleg-andreyev/mink-phpwebdriver": "^1.2.1",
+                "phpunit/phpunit": "9.5.*",
+                "symfony/process": "^4.4 || ^5.0"
+            },
+            "suggest": {
+                "ext-exif": "Enabling Exif PHP extension is recommended, it is used by Moodle to parse image meta data.",
+                "ext-mysqli": "Needed when Moodle uses MySQL or MariaDB database.",
+                "ext-oci8": "Needed when Moodle uses Oracle database.",
+                "ext-pgsql": "Needed when Moodle uses PostgreSQL database.",
+                "ext-soap": "Enabling SOAP PHP extension is useful for web services and some plugins.",
+                "ext-sqlsrv": "Needed when Moodle uses MS SQL Server database.",
+                "ext-tokenizer": "Enabling Tokenizer PHP extension is recommended, it improves Moodle Networking functionality."
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Moodle - the world's open source learning platform",
+            "homepage": "https://moodle.org",
+            "support": {
+                "source": "https://github.com/moodle/moodle/tree/v4.2.1"
+            },
+            "funding": [
+                {
+                    "type": "custom"
+                },
+                {
+                    "url": "https://moodle.com/donations/",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-06-10T06:07:52+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpstan/phpstan",
+            "version": "1.10.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/578f4e70d117f9a90699324c555922800ac38d8c",
+                "reference": "578f4e70d117f9a90699324c555922800ac38d8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "docs": "https://phpstan.org/user-guide/getting-started",
+                "forum": "https://github.com/phpstan/phpstan/discussions",
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "security": "https://github.com/phpstan/phpstan/security/policy",
+                "source": "https://github.com/phpstan/phpstan-src"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-07-06T12:11:37+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

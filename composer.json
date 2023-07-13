@@ -1,0 +1,23 @@
+{
+    "name": "micaherne/moodle-modernise",
+    "description": "An attempt to run Moodle as a modern PHP application",
+    "type": "project",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Michael Aherne",
+            "email": "micaherne@blueyonder.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "moodle/moodle": "*",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "*"
+    },
+    "config": {
+        "process-timeout": 600
+    }
+}
